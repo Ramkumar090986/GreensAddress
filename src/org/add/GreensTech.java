@@ -22,6 +22,9 @@ public class GreensTech {
 		System.out.println("Greens AnnaNagar");
 
 	}
+	public void chrompet() {
+		System.out.println("Greens Chrompet");
+	}
 	public static void main(String[] args) {
 		GreensTech gr=new GreensTech();
 		gr.greensOmr();
@@ -29,5 +32,6 @@ public class GreensTech {
 		gr.greensAdayar();
 		gr.greensAnnaNagar();
 		gr.greensVelacherry();
+		gr.chrompet();
 	}
 }
