@@ -22,8 +22,14 @@ public class GreensTech {
 		System.out.println("Greens AnnaNagar");
 
 	}
+
+	public void vadapalani() {
+    System.out.println("Greens Vadapalani");
+
+	}
 	public void chrompet() {
 		System.out.println("Greens Chrompet");
+
 	}
 	public static void main(String[] args) {
 		GreensTech gr=new GreensTech();
@@ -32,6 +38,10 @@ public class GreensTech {
 		gr.greensAdayar();
 		gr.greensAnnaNagar();
 		gr.greensVelacherry();
+
+		gr.vadapalani();
+
 		gr.chrompet();
+
 	}
 }
